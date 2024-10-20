@@ -1,11 +1,11 @@
 const primiss = new Promise((resolve, reject) => {
 
-    setInterval({
+    setTimeout({
         console.log('hello');
 
 
 
-    }, 5000)
+    }, 1000)
 
 
 
