@@ -1,12 +1,10 @@
-const primiss = new Promise((resolve, reject) => {
-
-    setTimeout({
-        console.log('hello');
+const btn = document.getElementById("btn")
+const paragraph = document.querySelector('p');
 
 
 
-    }, 1000)
+btn.addEventListener("click", () => {
 
-
+    paragraph.classList.add('classs');
 
 })
